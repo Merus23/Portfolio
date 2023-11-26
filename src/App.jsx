@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //Components
 import NavBar from './components/NavBar/NavBar';
+import Home from './page/Home';
 
 
 
@@ -18,8 +19,7 @@ function App() {
         
         <NavBar />
           <Routes>
-            {/* <Route path='/'  element={}/> */}
-          <p>Cleaning project</p>
+            <Route path='/'  element={<Home/>}/>
         </Routes>
 
       </BrowserRouter>
