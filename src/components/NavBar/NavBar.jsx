@@ -7,7 +7,7 @@ const NavBar = () => {
         <nav>
           <div className={styles.navLogo}>
               <NavLink to="/">
-                  <img src="src/assets/Icon-rounded-black.svg" alt="logo"  />
+                  <img src="src/assets/Icon-rounded-black-border.svg" alt="logo"  />
               </NavLink>    
           </div>
 
@@ -18,12 +18,17 @@ const NavBar = () => {
                 Home
               </NavLink>
             </li>
-            <li className={styles.navLinks}>
+            <li className={styles.links}>
               <NavLink to="/">
                 Services
               </NavLink>
             </li>
-            <li className={styles.navLinks}>
+            <li className={styles.links}>
+              <NavLink to="/">
+                Contacts
+              </NavLink>
+            </li>
+            <li className={styles.links}>
               <NavLink to="/">
                 About
               </NavLink>
